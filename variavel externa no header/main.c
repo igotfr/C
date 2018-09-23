@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include "outraFuncao.h"
 
 int x= 7;
