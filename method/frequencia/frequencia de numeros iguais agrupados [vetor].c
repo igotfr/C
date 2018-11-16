@@ -17,9 +17,9 @@ int main()
 
 		iVetor++, jVetor++;
 
-	vetorExclusivos[iVExclusivos]= valor;
-	freq[iVExclusivos]= ocorrencia;
-	iVExclusivos++;
+		vetorExclusivos[iVExclusivos]= valor;
+		freq[iVExclusivos]= ocorrencia;
+		iVExclusivos++;
 	}
 
 	for(int x= 0; x<iVExclusivos; x++)
