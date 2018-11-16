@@ -1,4 +1,4 @@
-  #include<stdio.h>
+#include<stdio.h>
 
 int main()
 {
@@ -6,18 +6,19 @@ int main()
 
 	while( iVetor<14 )
 	{
-    if( vetor[iVetor]==vetor[jVetor] )
+		if( vetor[iVetor]==vetor[jVetor] )
 		{
-      vetorExclusivos[iVExclusivos]= vetor[iVetor];
-	  	freq[iVExclusivos]= 1;
+			vetorExclusivos[iVExclusivos]= vetor[iVetor];
+			freq[iVExclusivos]= 1;
 
-		  while( vetor[iVetor]==vetor[jVetor] )
-		  {
-		  	freq[iVExclusivos]++;
-		  	iVetor++, jVetor++;
-		  }
-      iVExclusivos++;
-    }
+			while( vetor[iVetor]==vetor[jVetor] )
+			{
+				freq[iVExclusivos]++;
+				iVetor++, jVetor++;
+			}
+
+			iVExclusivos++;
+		}
 
 		iVetor++, jVetor++;
 	}
