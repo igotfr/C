@@ -17,7 +17,7 @@ int main()
 
 		i++, j++;
 
-	printf("o valor %d se repete %d vezes\n", valor, ocorrencia);
+		printf("o valor %d se repete %d vezes\n", valor, ocorrencia);
 	}
 
 	return 0;
