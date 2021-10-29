@@ -3,7 +3,7 @@
 int main() {
   int vetor[] = {1,1,1,1,3,3,4,4,4,5,5,6,6,9}, i = 0, j = i + 1, ocorrencia, valor;
 
-  while(i < 14) {
+  while (i < 14) {
     valor = vetor[i];
     ocorrencia = 1;
 
